@@ -1,0 +1,15 @@
+<main>
+  <app-learning-resources />
+
+  <hr />
+
+  <app-auth />
+
+  <!-- @if(isAdmin()){
+  <p>Only admin should see this!</p>
+  } -->
+  
+  <!-- * asterick -> structural directives  -->
+  <p *ngIf="isAdmin()">Only admin should see this!</p>
+
+</main>
